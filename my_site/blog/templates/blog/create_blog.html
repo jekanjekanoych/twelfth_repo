@@ -1,0 +1,7 @@
+<form action="/create_blog/" method="post">
+{% for blog in create_blog %}
+{{ blog.id }}
+{{ blog.title }}
+{{ blog.content }} <br>
+{% endfor %}
+</form>
